@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #2dc4b2;
+}
+
+#console {
+  position: absolute;
+  width: 420px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.session {
+  margin-bottom: 5px;
+}
+
+.row {
+  height: px;
+  width: 100%;
+}
+
+.mapboxgl-ctrl-geocoder {
+  width: 280px !important;
+}
